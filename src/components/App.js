@@ -11,8 +11,8 @@ class App extends Component {
 
         <Group title="Ship Stats" color="#610000">
           <p>
-            Press when a ship is selected to increase that stat by 1. Combine with <Key>Ctrl</Key>{' '}
-            to decrease by 1 instead.
+            Press when a ship is selected to increase that stat by 1. Combine
+            with <Key>Ctrl</Key> to decrease by 1 instead.
           </p>
           <Command text="Pilot Skill" keys="Alt P" />
           <Command text="Attack" keys="Alt A" />
@@ -25,9 +25,10 @@ class App extends Component {
 
         <Group title="Movement" color="#000061">
           <p>
-            Press when a ship is selected. Replace <Key>#</Key> with the desired speed of the
-            maneuver (<Key>1</Key> - <Key>5</Key>). After moving, if the ship overlaps an other
-            ship, you can press <Key>C</Key> to automatically resolve the bump.
+            Press when a ship is selected. Replace <Key>#</Key> with the desired
+            speed of the maneuver (<Key>1</Key> - <Key>5</Key>). After moving,
+            if the ship overlaps an other ship, you can press <Key>C</Key> to
+            automatically resolve the bump.
           </p>
           <Command maneuver="straight" keys="Shift #" />
           <Command maneuver="bankleft" keys="Ctrl #" />
@@ -54,8 +55,8 @@ class App extends Component {
 
         <Group title="Dials">
           <p>
-            Press when a maneuver dial is selected. Changing the maneuver on a dial should be done
-            in the player's hand.
+            Press when a maneuver dial is selected. Changing the maneuver on a
+            dial should be done in the player's hand.
           </p>
           <Command text="Hide/Reveal dial" keys="Ctrl R" />
           <Command text="Change Maneuver Left" keys="," />
@@ -88,7 +89,8 @@ class App extends Component {
 
         <Group title="Ship Icons">
           <p>
-            Press when a ship is selected to toggle the action and status icons on the ship token.
+            Press when a ship is selected to toggle the action and status icons
+            on the ship token.
           </p>
           <Command text="Cycle action 1" keys="Shift A" />
           <Command text="Clear action 1" keys="Shift Z" />
@@ -107,9 +109,10 @@ class App extends Component {
 
         <Group title="Bombs">
           <p>
-            To place a bomb, select a ship and spawn a bomb spawner. Then select the bomb spawner
-            and press the correct keys to spawn a bomb. To drop a cargo token there's no need to
-            create a bomb spawner first. You can drop it straight from the ship.
+            To place a bomb, select a ship and spawn a bomb spawner. Then select
+            the bomb spawner and press the correct keys to spawn a bomb. To drop
+            a cargo token there's no need to create a bomb spawner first. You
+            can drop it straight from the ship.
           </p>
           <Command text="Place bomb spawner" keys="Ctrl B" />
           <Command text="Seismic Charges" keys="Ctrl S" />
