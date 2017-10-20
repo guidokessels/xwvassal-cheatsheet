@@ -2,6 +2,7 @@
   "name": "xwvassal-cheatsheet",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://guidokessels.github.io/xwvassal-cheatsheet/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
